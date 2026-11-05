@@ -6,13 +6,13 @@ class Character:
         self.name = name
         self.hp = hp
         self.attack_power = attack_power
-        self.initial_attack_power = attack_power
 
     def attack(self, other):
-        min_damage = self.initial_attack_power * 0.3
-        max_damage = self.initial_attack_power * 0.9
+        damage = random.uniform(
+            self.attack_power * 0.3,
+            self.attack_power * 0.9
+        )
 
-        damage = random.uniform(min_damage, max_damage)
         other.hp -= damage
 
         print(

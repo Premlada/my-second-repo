@@ -29,7 +29,7 @@ A Knight fights against two enemies: a Goblin and an Orc.
 2. Display their initial HP.
 3. The Knight fights the Goblin first.
 4. If the Knight survives, the Knight fights the Orc.
-5. Each character attacks in turns until one side is defeated.
+5. Characters attack in turns until one side is defeated.
 6. Display the battle result.
 
 ## Running the Game
